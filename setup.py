@@ -40,6 +40,6 @@ setup(
         "gffutils",
     ],
     python_requires=">=3.6",
-    entry_points={"console_scripts": ["clinker-rotate=clinker.main:main"]},
+    entry_points={"console_scripts": ["clinker=clinker.main:main"]},
     include_package_data=True,
 )
