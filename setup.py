@@ -19,13 +19,13 @@ def get_version():
 
 
 setup(
-    name="clinker",
-    author="Cameron Gilchrist",
+    name="clinker-rotate",
+    author="Cameron Gilchrist, Modified by Kevin Gao",
     version=get_version(),
-    description="",
+    description="Gene cluster comparison with enhanced visualization features",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/gamcil/clinker",
+    url="https://github.com/kevingao25/clinker-rotate",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -40,6 +40,6 @@ setup(
         "gffutils",
     ],
     python_requires=">=3.6",
-    entry_points={"console_scripts": ["clinker=clinker.main:main"]},
+    entry_points={"console_scripts": ["clinker-rotate=clinker.main:main"]},
     include_package_data=True,
 )
